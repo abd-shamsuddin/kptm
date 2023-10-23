@@ -12,7 +12,7 @@ class Page extends Component
     public $updateMode = false;
     public function render()
     {
-        $this->sequences = Sequence::latest()->get();
+        $this->sequences = Sequence::orderBy('sequence')->get();
         return view('livewire.sequence.page')
             ->extends('layouts.app')
             ->section('content');;

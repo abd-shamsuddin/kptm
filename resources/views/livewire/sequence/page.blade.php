@@ -52,7 +52,7 @@
         <thead>
         <tr>
             <th>No.</th>
-            <th>Sequnce</th>
+            <th>Sequence</th>
             <th>Category</th>
             <th>Account Vot</th>
             <th width="150px">Action</th>
