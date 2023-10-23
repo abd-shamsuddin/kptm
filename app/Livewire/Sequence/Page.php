@@ -26,7 +26,7 @@ class Page extends Component
     private function resetInputFields(){
         $this->sequence = '';
         $this->category = '';
-        $this->account_vote = '';
+        $this->account_vot = '';
     }
 
     /**
