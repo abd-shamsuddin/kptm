@@ -58,6 +58,7 @@ class Page extends Component
     {
         $sequence = Sequence::findOrFail($id);
         $this->sequence_id = $id;
+        $this->sequence = $sequence->sequence;
         $this->category = $sequence->category;
         $this->account_vot = $sequence->account_vot;
 
